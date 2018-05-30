@@ -1,3 +1,7 @@
-resolver: lts-10.4
+resolver: lts-11.11
 packages:
 - .
+extra-deps:
+- graphviz-2999.20.0.2
+- wl-pprint-text-1.2.0.0
+- base-compat-0.10.1
